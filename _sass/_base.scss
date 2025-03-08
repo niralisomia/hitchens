@@ -97,6 +97,8 @@ img {
 
 figure img {
   margin: 2em auto 1em;
+  max-width: 400px;  // Add this line to control maximum width
+  width: 100%;
 }
 
 figcaption {
@@ -154,7 +156,7 @@ figcaption {
   text-transform: uppercase;
   &:hover,
   &:focus {
-    background: lighten($brand-color, 2.5%);
+    background: lighten(#c4f095, 2.5%);
     border-color: $text-color;
     margin-top: 0;
   }
